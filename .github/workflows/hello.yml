@@ -19,3 +19,13 @@ jobs:
 
       - name: say hello to username
         run: echo "Hello $USER"
+        
+   show-version:
+    # this is github-runner, each job runs on a runner
+     runs-on: ubuntu-latest
+     steps: 
+      - name: show python version
+        run: python3 --version
+
+      - name: show git version
+        run: git --version
