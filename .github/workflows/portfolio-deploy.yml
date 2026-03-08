@@ -28,7 +28,7 @@ jobs:
 
             # static code artifacts
             - name: Upload static files
-              uses: actions/uupload-pages-artifact@v4
+              uses: actions/upload-pages-artifact@v4
 
             # make page live
             - name: Deploy to Github pages
