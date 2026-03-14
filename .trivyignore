@@ -1,0 +1,5 @@
+# ignore the vulnerability for
+
+# libc-bin, libc6, libsystemd0, libudev1
+CVE-2026-0861
+CVE-2026-4105
